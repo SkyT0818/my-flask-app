@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>予約フォーム</title>
+</head>
+<body>
+    <h1>予約フォーム</h1>
+    <form action="/submit" method="post">
+        <label>チェックイン日: <input type="date" name="checkin_date" required></label><br>
+        <label>チェックアウト日: <input type="date" name="checkout_date" required></label><br>
+        <label>名前: <input type="text" name="name" required></label><br>
+        <label>メール: <input type="email" name="email" required></label><br>
+        <label>電話番号: <input type="text" name="phone" required></label><br>
+        <button type="submit">送信</button>
+    </form>
+</body>
+</html>
